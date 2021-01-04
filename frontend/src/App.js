@@ -1,9 +1,12 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
+import { useRoutes } from './routes'
 
 function App() {
-  return (
-    <>check</>
-  )
+  const checkAuth = true
+  const routes = useRoutes(checkAuth)
+
+  return (<BrowserRouter>{routes}</BrowserRouter>)
 }
 
 export default App
