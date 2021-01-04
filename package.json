@@ -1,0 +1,20 @@
+{
+  "name": "FlightsBooking",
+  "version": "1.0.0",
+  "description": "Flights Booking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinamiryuk/FlightsBooking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinamiryuk/FlightsBooking/issues"
+  },
+  "homepage": "https://github.com/alinamiryuk/FlightsBooking#readme"
+}
