@@ -1,0 +1,28 @@
+.flightsPageWrapper {
+  height: 895px;
+  width: 680px;
+  background-color: #FFFFFF;
+  border-radius: 3%;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.flightsPage {
+  margin: 0 40px 40px 40px;
+}
+
+.flightsPage__logout {
+  position: absolute;
+  right: 31px;
+}
+
+.flightsPage__images {
+  display: flex;
+  align-content: center;
+}
+
+.flightsPage__list {
+  height: 417px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}

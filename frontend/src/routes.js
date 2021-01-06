@@ -1,20 +1,20 @@
 import React from 'react'
 import { Redirect, Route, Switch } from 'react-router-dom'
-import { FlightsList } from './components/FlightsList/FlightsList'
-import { Login } from './components/Login/Login'
+import { FlightsPage } from './components/FlightsPage/FlightsPage'
+import { LoginPage } from './components/LoginPage/LoginPage'
 
 export const useRoutes = (auth) => {
   if (auth) {
     return (
       <Switch>
-        <Route path="/" component={FlightsList} />
+        <Route path="/" component={FlightsPage} />
         <Redirect to="/" />
       </Switch>
     )
   } else {
     return (
       <Switch>
-        <Route path="/login" component={Login} />
+        <Route path="/login" component={LoginPage} />
         <Redirect to="/login" />
       </Switch>
     )
