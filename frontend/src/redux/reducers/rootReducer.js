@@ -4,5 +4,5 @@ import { flightsReducer } from './flightsReducer'
 
 export const rootReducer = combineReducers({
   auth: authReducer,
-  // flights: flightsReducer,
+  flights: flightsReducer,
 })

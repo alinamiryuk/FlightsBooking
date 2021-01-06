@@ -1,7 +1,7 @@
 import React from 'react'
 import { Redirect, Route, Switch } from 'react-router-dom'
 import { FlightsList } from './components/FlightsList/FlightsList'
-import { Login } from './components/Login'
+import { Login } from './components/Login/Login'
 
 export const useRoutes = (auth) => {
   if (auth) {
