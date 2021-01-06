@@ -1,0 +1,40 @@
+.flight {
+  display: flex;
+  border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+}
+
+.flight__planeWrapper {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin: 20px 24px 17px 59px;
+  background: rgba(0, 119, 255, 0.05);
+  display: flex;
+  justify-content: center;
+}
+
+.flight__planeWrapper > img {
+  width: 35px;
+  height: 35px;
+  align-self: center;
+}
+
+.flight__info {
+  margin: 20px 0 22px 0;
+  width: 370px;
+}
+
+.flight__infoPlaces {
+  display: flex;
+}
+
+.flight__infoDateTime {
+  display: flex;
+}
+
+.flight__priceLike {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 17px 11px 23px 0;
+}
