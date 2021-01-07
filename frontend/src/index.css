@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* width */
@@ -16,6 +17,6 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1157A7;
+  background: #1157a7;
   border-radius: 10px;
 }
